@@ -24,3 +24,37 @@ img {
     width: 512px;
     height: auto;
 }
+
+table {
+    background-color: salmon;
+    border: 2px black solid;
+    text-align: center;
+
+}
+td:hover {
+    background-color: chartreuse;
+
+}
+
+th {
+    background-color: bisque;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: violet;
+    color: olivedrab;
+}
+
+td {
+    width: 160px;
+}
+
+form, input {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
